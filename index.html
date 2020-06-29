@@ -1,28 +1,30 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
 	<meta charset="UTF-8">
-  <title>Picsk one!</title>
-
-Let's play new game
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Flask image get</title>
 </head>
-	
-
-
-  
 <body>	
-  <form method="get" action="form-action.php">
-	  <p><input type="radio" value="시끌벅적"/><br/></p>
-	  <p><input type="radio" value="조용"/><br/></p>
-	  
-	 
-    
-  </form>
-	
+	<br>
+	<h1 align="center">Neural Sytle Transfer</h1>
+	<br>
+	<form align="center" action="/nst_post" method="POST" enctype="multipart/form-data">
+		<h2 align="center">Reference Images</h2>
+		<table align="center">
+			
+			<tr>
+				<td><input type="radio" name="시끌벅적" value="rain_princess.jpg"></td>
+				<td><input type="radio" name="조용" value="the_stary_night.JPG"></td>
+				
+			</tr>
+
+		</table>
+		
+		
+	</form>
+	<br><br>
 
 </body>
 </html>
-
-localStorage.game = JSON.stringify({ score: 1 }) // put
-console.log(JSON.parse(localStorage.game)) // get
-
