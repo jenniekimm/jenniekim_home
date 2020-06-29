@@ -7,34 +7,23 @@
 	<title>Flask image get</title>
 </head>
 <body>	
-	<br>
-	<h1 align="center">Neural Sytle Transfer</h1>
-	<br>
-	<form align="center" action="/nst_post" method="POST" enctype="multipart/form-data">
-		<h2 align="center">Reference Images</h2>
-		<table align="center">
-			<tr>
-				<td><img class="refer_img" id="refer_img1" src="./static/images/rain_princess.jpg"></td>
-				<td><img class="refer_img" id="refer_img2" src="./static/images/the_stary_night.JPG"></td>
-				<td><img class="refer_img" id="refer_img3" src="./static/images/scream.jpg"></td>
-				<td><img class="refer_img" id="refer_img3" src="./static/images/zentangle_art.jpg"></td>
-			</tr>
-			<tr>
-				<td><input type="radio" name="refer_img" value="rain_princess.jpg"></td>
-				<td><input type="radio" name="refer_img" value="the_stary_night.JPG"></td>
-				<td><input type="radio" name="refer_img" value="scream.jpg"></td>
-				<td><input type="radio" name="refer_img" value="zentangle_art.jpg"></td>
-			</tr>
+	
+	#tree
+   h2 birthday party?
+   ul
+      li 
+        h3 Dogs
+	p.text.hidden What kind of cats?
+       
 
-		</table>
-		<br><br>
-		<h2 align="center">Target Image</h2>
-		<div align="center" id='view_area'></div>
-		<br>
-		<input type="file" name="user_img" id="user_img" value="userIMgage" onchange="previewImage(this,'view_area')"/>
-		<input type="submit" value="확인"/>
-	</form>
-	<br><br><br>
+      li 
+        h3 Cats
+        p.text.hidden What kind of cats?
+        ul 
+          li Domestic cats
+          li Wild Cats
+      span.back.hidden Back to Dogs & Cats
+
 
 </body>
 </html>
