@@ -7,23 +7,24 @@
 	<title>Flask image get</title>
 </head>
 <body>	
-	
-	#tree
-   h2 birthday party?
-   ul
-      li 
-        h3 Dogs
-	p.text.hidden What kind of cats?
-       
+	<br>
+	<h1 align="center">Neural Sytle Transfer</h1>
+	<br>
+	<form align="center" action="/nst_post" method="POST" enctype="multipart/form-data">
+		<h2 align="center">Reference Images</h2>
+		<table align="center">
+			
+			<tr>
+				<td><input type="radio" name="시끌벅적" value="rain_princess.jpg"></td>
+				<td><input type="radio" name="조용" value="the_stary_night.JPG"></td>
+				
+			</tr>
 
-      li 
-        h3 Cats
-        p.text.hidden What kind of cats?
-        ul 
-          li Domestic cats
-          li Wild Cats
-      span.back.hidden Back to Dogs & Cats
-
+		</table>
+		
+		
+	</form>
+	<br><br>
 
 </body>
 </html>
